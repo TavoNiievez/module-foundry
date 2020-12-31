@@ -1,0 +1,29 @@
+{
+    "name": "tavoniievez/module-foundry",
+    "description": "Foundry module for Codeception",
+    "keywords": ["codeception", "foundry"],
+    "homepage": "https://codeception.com/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Nieves"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {
+        "php": "^7.3 | ^8.0",
+        "codeception/codeception": "^4.1",
+        "zenstruck/foundry": "^1.6"
+    },
+    "require-dev": {
+        "codeception/module-doctrine2": "^1.1",
+        "codeception/module-symfony": "^1.6"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "config": {
+        "classmap-authoritative": true
+    }
+}
