@@ -8,10 +8,6 @@
     "authors": [
         {
             "name": "Gustavo Nieves"
-        },
-        {
-            "name": "Jordan Wamser",
-            "email": "jwamser@redpandacoding.com"
         }
     ],
     "minimum-stability": "RC",
@@ -40,9 +36,6 @@
         }
     },
     "config": {
-        "classmap-authoritative": true,
-        "allow-plugins": {
-            "phpstan/extension-installer": true
-        }
+        "classmap-authoritative": true
     }
 }
