@@ -23,6 +23,11 @@
     "autoload": {
         "classmap": ["src/"]
     },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
     "config": {
         "classmap-authoritative": true
     }
