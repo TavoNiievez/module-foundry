@@ -28,7 +28,7 @@ use Zenstruck\Foundry\Test\TestState;
  *
  * ```json
  * {
- *  "zenstruck/foundry": "^1.6",
+ *  "zenstruck/foundry": "^1.36",
  * }
  * ```
  *
@@ -115,7 +115,7 @@ class Foundry extends Module implements DependsOnModule, RequiresPackage
     public function _requires(): array
     {
         return [
-            'Zenstruck\Foundry\Factory' => '"zenstruck/foundry": "^1.6"',
+            'Zenstruck\Foundry\Factory' => '"zenstruck/foundry": "^1.36"',
         ];
     }
 
