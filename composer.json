@@ -12,8 +12,8 @@
     ],
     "minimum-stability": "RC",
     "require": {
-        "php": "^7.3 | ^8.0",
-        "codeception/codeception": "^4.1",
+        "php": "^7.3 | ^8.0 | ^8.1",
+        "codeception/codeception": "^4.1 | ^5.0",
         "zenstruck/foundry": "^1.6"
     },
     "require-dev": {
