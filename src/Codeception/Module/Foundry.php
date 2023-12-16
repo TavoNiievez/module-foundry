@@ -57,7 +57,7 @@ use Zenstruck\Foundry\Test\TestState;
  */
 class Foundry extends Module implements DependsOnModule, RequiresPackage
 {
-    protected $config = [
+    protected array $config = [
         'cleanup' => false,
         'factories' => null
     ];
