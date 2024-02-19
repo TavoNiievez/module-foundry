@@ -21,10 +21,13 @@ jobs:
         coverage: none
 
     - name: Validate composer.json and composer.lock
-      run: composer validate
+      run: composer validate --strict
 
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress --no-interaction --no-suggest
 
     - name: Run test suite
       run: php -l src/Codeception/Module/Foundry.php
+
+    - name: CI mess detection and static analysis
+      run: make scan
