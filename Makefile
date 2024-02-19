@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 .PHONY: $(filter-out vendor node_modules,$(MAKECMDGOALS))
 
-bin = symfony php ./vendor/bin
+bin = vendor/bin
 
 help: ## This help message
 	@printf "\033[33mUsage:\033[0m\n  make [target]\n\n\033[33mTargets:\033[0m\n"
