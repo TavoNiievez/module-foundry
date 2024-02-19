@@ -3,3 +3,9 @@
 /.gitignore      export-ignore
 /*.md            export-ignore
 /*.yml           export-ignore
+/Makefile        export-ignore
+/.editorconfig   export-ignore
+/.cache          export-ignore
+/*.dist.php      export-ignore
+/*.dist.xml      export-ignore
+/*.dist.neon     export-ignore
